@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Website </title>
+  <link rel="stylesheet" href="eva.css">
+
+
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="eva.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+<body>
+
+  <!-- Profile Card -->
+  <div class="profile-card">
+    <div class="profile-header">
+      <h1>Evangela Mendes</h1>
+      <p><span class="floating-text">Bemvindo mai hau nia profile Web</span></p> <!-- Animated Text -->
+    </div>
+    <div class="profile-content">
+      <img src="EVA.jpg" alt="Foto Profil" style="width:150px; border-radius: 50%; margin-bottom: 20px;">
+      <p><i>Óla! Ha'u Evangela Mendes, estudante husi Instituto Profissional de Canossa (IPDC), no hau foti departamentu Teknicas de Computacao e informatica (TCI). Ha'u iha interese tebes iha mundu teknolojia no programasaun nian. Ha'u sempre koko atu aprende no buras iha área ida-ne'e!</i></p>
+    </div>
+  </div>
+  <!-- Profile Card -->
+  <div class="profile-card">
+    <div class="profile-header">
+      <h1>Evangela Mendes</h1>
+      <p><h2>Bemvindo mai hau nia profile Web</h2></p>
+    </div>
+    <div class="profile-content">
+      <img src="EVA.jpg" alt="Foto Profil">
+
+      <p><i>Óla! Ha'u Evangela Mendes, estudante husi Instituto Profissional de Canossa (IPDC), no hau foti departamentu Tecnicas de Computacao e informatica (TCI). Ha'u iha interese tebes iha mundu teknolojia no programasaun nian. Ha'u sempre koko atu aprende no buras iha área ida-ne'e!</i></p>
+    </div>
+  </div>
+  
+  <!-- Tombol untuk Toggle Dark Mode -->
+  <button id="toggleTheme">🔘</button>
+  
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Evangela Mendes. All rights reserved.
+  </footer>
+  
+  <!-- JavaScript -->
+  <script>
+
+    // Fungsi untuk toggle dark mode
+    document.getElementById("toggleTheme").addEventListener("click", function() {
+      document.body.classList.toggle("dark-mode");
+    });
+  </script>
+
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    /* Animasi untuk Navbar */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 15px;
+      text-align: center;
+      opacity: 0;
+      animation: slideIn 1s forwards;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+
+    .navbar a:hover {
+      color: #ffcc00;
+    }
+
+    /* Animasi untuk navbar muncul dari kiri */
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translateX(-100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    /* Animasi untuk profile card */
+    .profile-card {
+      max-width: 800px;
+      margin: 100px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      animation: fadeIn 2s forwards;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .profile-header h1 {
+      font-size: 32px;
+      color: #333;
+    }
+
+    .profile-header h2 {
+      font-size: 24px;
+      color: #777;
+    }
+
+    .profile-content img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin: 20px 0;
+      animation: fadeIn 3s forwards;
+    }
+
+    /* Animasi tombol Toggle Dark Mode */
+    #toggleTheme {
+      padding: 10px;
+      background-color: #333;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      opacity: 0;
+      animation: fadeIn 2s 1s forwards; /* Delay untuk animasi */
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 50px;
+    }
+
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="eva.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  
+  <!-- Profile Card -->
+  <div class="profile-card">
+    <div class="profile-header">
+      <h1>Evang
+
+
+</body>
+</html>
+

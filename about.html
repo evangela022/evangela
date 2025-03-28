@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: content-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #888;
+      color: #444;
+      overflow-x: hidden;
+    }
+
+    /* Navbar */
+    .navbar {
+      background-color: #222;
+      padding: 10px;
+      text-align: center;
+      opacity: 0;
+      animation: slideInNavbar 1s forwards;
+    }
+
+    .navbar a {
+      color: blue;
+      text-decoration: none;
+      margin: 0 10px;
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    .navbar a:hover {
+      color: #ffcc00;
+    }
+
+    /* Animasi Navbar */
+    @keyframes slideInNavbar {
+      0% {
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* About Section */
+    .about-section {
+      max-width: 700px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: greenyellow;
+      border-radius: 15px;
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      opacity: 0;
+      transform: translateY(100px);
+      animation: slideInFromBottom 1s ease-out forwards;
+    }
+
+    @keyframes slideInFromBottom {
+      0% {
+        opacity: 0;
+        transform: translateY(100px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .about-section h1 {
+      font-size: 22px;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #333;
+      opacity: 0;
+      animation: fadeIn 1s ease-in-out forwards;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .about-section p {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #333;
+      opacity: 0;
+      animation: fadeInText 2s ease-in-out forwards;
+    }
+
+    @keyframes fadeInText {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+
+    .about-section ul {
+      margin-top: 10px;
+      padding-left: 20px;
+      list-style-type: square;
+    }
+
+    .about-section ul li {
+      font-size: 14px;
+      color: #333;
+    }
+
+    .about-section h2 {
+      margin-top: 20px;
+      font-size: 18px;
+      color: #333;
+      opacity: 0;
+      animation: fadeInText 1.5s ease-in-out forwards;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #999;
+      color: aliceblue;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 30px;
+    }
+
+    footer a {
+      color: #000;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="eva.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <div class="about-section">
+    <h1>Kona ba Hau</h1>
+    <p>Hau Evangela Mendes, agora halao hela hau nia estudu iha eskola Instituto Profissional de Canossa (IPDC) no hau foti departamentu Informatika tanba ha'u nia interese kle'an iha mundu teknolojia nian. Ha'u sempre koko atu aprende no buras iha área ida-ne'e!...</p>
+    
+    <h2><b>Skill</b>  </h2>
+    <p>Hau nia skill</p>
+    <ul>
+      <li>HTML 20%</li>
+      <li>Css 20%</li>
+      <li>JavaScript 10%</li>
+    </ul>
+
+    <h3>Visi Saya</h3>
+
+    <p><a>Ha'u nia Vizaun maka atu kria website ida ne'ebé la'ós de'it estétiku no atrativu, maibé mós funsionál no fásil atu uza. Ha'u iha kompromisu atu fornese esperiénsia di'ak liu ba utilizadór liuhosi dezeñu inovativu no teknolojia avansadu.</a></p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Evangela Mendes. All rights reserved.
+  </footer>
+</body>
+</html>
